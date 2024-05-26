@@ -1,13 +1,14 @@
 * {
   box-sizing: border-box;
-  font-family: Inter;
 }
 
 body {
   margin: 0;
+  font-family: Inter, sans-serif;
+  background-color: #282d35;
 }
 
-.navbar {
+nav {
   display: flex;
   align-items: center;
   background-color: #21222a;
@@ -15,24 +16,64 @@ body {
   padding: 30px 25px;
 }
 
-.navbar > h3,
-.navbar > h4 {
+.nav--logo_text,
+.nav--title {
   margin: 0;
 }
 
-.navbar > h3 {
+.nav--logo_text {
   margin-right: auto;
   color: #61dafb;
   font-weight: 700;
   font-size: 22px;
 }
 
-.navbar > h4 {
+.nav--title {
   color: #deebf8;
   font-weight: 600;
 }
 
-.navbar > img {
-  height: 30px;
+.nav--icon {
+  height: 28.93px;
   margin-right: 7px;
+}
+
+.main {
+  /* background-image: url(../src/assets/reactjs-icon.png);
+  background-repeat: no-repeat;
+  background-position: right 120%; */
+  padding-top: 56px;
+}
+
+.main--title {
+  font-weight: 700;
+  margin-top: 0;
+  padding-left: 27px;
+  margin-bottom: 29px;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: -0.05em;
+}
+
+.main--list {
+  margin-left: 30px;
+  color: #ffffff;
+  font-size: 16px;
+  max-width: 400px;
+}
+
+.main--list > li {
+  margin-bottom: 11px;
+}
+
+.main--list > li::marker {
+  color: #61dafb;
+  font-size: 1.5em;
+}
+
+.main--logo {
+  position: absolute;
+  margin-top: -26.515px;
+  right: 0;
+  z-index: -1;
 }
