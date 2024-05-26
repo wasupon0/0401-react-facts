@@ -4,7 +4,7 @@ function Main() {
   return (
     <main className="main">
       <h1 className="main--title">Fun facts about React</h1>
-      <img className="main--logo" src={reactHalfLogo} alt="reactHalfLogo" />
+      {/* <img className="main--logo" src={reactHalfLogo} alt="reactHalfLogo" /> */}
 
       <ul className="main--list">
         <li>Was first released in 2013</li>
