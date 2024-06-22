@@ -1,8 +1,9 @@
 import reactHalfLogo from "../assets/reactjs-icon.png";
 
-function Main() {
+function Main(props) {
   return (
-    <main className="main">
+    <main className={props.darkMode ? "dark" : ""}>
+      <br />
       <h1 className="main--title">Fun facts about React</h1>
       {/* <img className="main--logo" src={reactHalfLogo} alt="reactHalfLogo" /> */}
 
