@@ -107,8 +107,7 @@ nav.dark .toggler--slider {
   justify-content: flex-end;
 }
 
-.main {
-  background-color: white;
+main {
   background-image: url(../src/assets/reactjs-icon.png);
   background-position: right 75%;
   background-repeat: no-repeat;
